@@ -15,6 +15,22 @@
 
 '''
 
+'''
+注意sorted函数以及lambda函数的使用方法
+
+1.sorted()函数：用于对所有的可迭代对象进行排序。
+sorted(iterable, key=指定可迭代对象中的一个元素, reverse=False)
+
+如：[(1,3), (9,7), (4, 8), (7,10)]按照每个元组的第一个元素为关键字
+排序，可以这样写
+
+result = sorted(list, key=lambda x:x[0])
+
+2.lambda函数的使用
+lamba 参数1，参数2,....:返回值
+
+'''
+
 class Interval(object):
     def __init__(self, start, end):
         self.start = start
