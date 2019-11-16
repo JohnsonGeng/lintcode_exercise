@@ -16,7 +16,7 @@ nums = [1, 7, 3, 6, 5, 6]
 '''
 
 
-def pivotIndex(self, nums):
+def pivotIndex(nums):
     # Write your code here
     # 思路：分别记录左前缀和以及右前缀和，遍历数组判断左右前缀和是否相等即可。
     # 用于存储前缀和
